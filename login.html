@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' type="text/css" href="mainstyle.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="mainscript.js"></script>
+    </head>
+    <body>
+        <div class="in" id="in">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6" id="left">
+                        <img src="1.png" id="im">
+                    </div>
+                    <div class="col-sm-6">
+                        <div id="hd">LOG INTO YOUR ACCOUNT!</div>
+                        <form style="margin-top: 12%;" name="log" method="POST" id="sign">
+                    
+                            <label for="num">EMAIL ID</label><br>
+                            <input type="email" id="email" name="email" placeholder="abc@xyz.com" class="fi"><br>
+                            <label for="num">PASSWORD</label><br>
+                            <input type="password" id="pass" name="pass" class="fi"><br>
+                            <button value="Sign Up" id="btn" onclick="subl()">Log In<span class="glyphicon glyphicon-chevron-right" style="font-size: 14px;margin-right: 1%;"></span></button>
+                          </form>
+                          <br>
+                          <div id="al" style="margin-left: 1%;"><a href="index.html">New registered?</a></div>
+                          
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
